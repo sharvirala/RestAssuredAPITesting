@@ -24,7 +24,7 @@ public class TekArchApiE2ETest extends UserServiceHelper{
 	public static void validUserLogin_TC_01() throws IOException
 	{
 		Response response=loginToApplication();
-		
+		// pojo object
 	     LoginResponseBodyPojo[] loginrespojo=loginResPojo(response);
 	
 		
