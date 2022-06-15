@@ -68,7 +68,7 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					<includes>
-						<include>compile</include>
+						<!--<include>compile</include>-->
 					</includes>
 				</configuration>
 			</plugin>
