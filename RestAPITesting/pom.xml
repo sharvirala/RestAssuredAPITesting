@@ -68,7 +68,7 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					<includes>
-						<include>**/Runner.java</include>
+						<include>compile</include>
 					</includes>
 				</configuration>
 			</plugin>
