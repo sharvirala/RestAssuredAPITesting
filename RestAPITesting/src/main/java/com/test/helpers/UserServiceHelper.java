@@ -4,20 +4,12 @@ package com.test.helpers;
 
 
 import java.io.IOException;
-import java.util.ArrayList;
-
-import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeClass;
 
 import com.test.models.CreateUserPojo;
-import com.test.models.CreateUserResponseBodyPojo;
 import com.test.models.DeleteUserRequestBodyPojo;
-import com.test.models.DeleteUserResponseBodyPojo;
-import com.test.models.GetUserResponseBodyPojo;
 import com.test.models.LoginPojo;
-import com.test.models.LoginResponseBodyPojo;
 import com.test.models.UpdateUserPojo;
-import com.test.models.UpdateUserResponseBodyPojo;
 //import com.tests.constants.EndPionts;
 //import com.tests.constants.SourcePath;
 import com.tests.constants.EndPionts;

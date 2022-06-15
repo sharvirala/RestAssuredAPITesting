@@ -1,13 +1,7 @@
 package com.test.helpers;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
-import org.testng.annotations.BeforeClass;
-
 import com.test.models.CreateUserPojo;
 import com.test.models.CreateUserResponseBodyPojo;
 import com.test.models.DeleteUserRequestBodyPojo;
