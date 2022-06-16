@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-15T18:14:38 EDT" name="Default suite" finished-at="2022-06-15T18:14:50 EDT" duration-ms="12785">
+  <suite started-at="2022-06-16T16:17:53 EDT" name="Suite" finished-at="2022-06-16T16:18:13 EDT" duration-ms="20841">
     <groups>
     </groups>
-    <test started-at="2022-06-15T18:14:38 EDT" name="Default test" finished-at="2022-06-15T18:14:50 EDT" duration-ms="12785">
+    <test started-at="2022-06-16T16:17:53 EDT" name="Test" finished-at="2022-06-16T16:18:13 EDT" duration-ms="20841">
       <class name="com.test.tests.TekArchApiE2ETest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-15T18:14:38 EDT" name="setup" finished-at="2022-06-15T18:14:39 EDT" duration-ms="834" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-16T16:17:53 EDT" name="setup" finished-at="2022-06-16T16:17:55 EDT" duration-ms="1958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validUserLogin_TC_01()[pri:1, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-15T18:14:39 EDT" name="validUserLogin_TC_01" finished-at="2022-06-15T18:14:41 EDT" duration-ms="2793" status="PASS">
+        <test-method signature="validUserLogin_TC_01()[pri:1, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-16T16:17:55 EDT" name="validUserLogin_TC_01" finished-at="2022-06-16T16:18:01 EDT" duration-ms="6064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUserLogin_TC_01 -->
-        <test-method signature="addUserData_TC_02()[pri:2, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-15T18:14:41 EDT" name="addUserData_TC_02" finished-at="2022-06-15T18:14:43 EDT" duration-ms="1859" status="PASS">
+        <test-method signature="addUserData_TC_02()[pri:2, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-16T16:18:01 EDT" name="addUserData_TC_02" finished-at="2022-06-16T16:18:05 EDT" duration-ms="3908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUserData_TC_02 -->
-        <test-method signature="getUserData_TC_03()[pri:3, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-15T18:14:43 EDT" name="getUserData_TC_03" finished-at="2022-06-15T18:14:49 EDT" duration-ms="5931" status="PASS">
+        <test-method signature="getUserData_TC_03()[pri:3, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-16T16:18:05 EDT" name="getUserData_TC_03" finished-at="2022-06-16T16:18:10 EDT" duration-ms="5411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserData_TC_03 -->
-        <test-method signature="updateUserData_TC_04()[pri:4, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-15T18:14:49 EDT" name="updateUserData_TC_04" finished-at="2022-06-15T18:14:50 EDT" duration-ms="706" status="FAIL">
+        <test-method signature="updateUserData_TC_04()[pri:4, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-16T16:18:10 EDT" name="updateUserData_TC_04" finished-at="2022-06-16T16:18:10 EDT" duration-ms="463" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -70,7 +70,7 @@ at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
 at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at com.test.helpers.ReusableMetods.verifyStatuscode(ReusableMetods.java:118)
+at com.test.helpers.ReusableMetods.verifyStatuscode(ReusableMetods.java:112)
 at com.test.tests.TekArchApiE2ETest.updateUserData_TC_04(TekArchApiE2ETest.java:91)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -106,11 +106,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserData_TC_04 -->
-        <test-method signature="deleteUserData_TC_05()[pri:5, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-15T18:14:50 EDT" name="deleteUserData_TC_05" finished-at="2022-06-15T18:14:50 EDT" duration-ms="607" status="PASS">
+        <test-method signature="deleteUserData_TC_05()[pri:5, instance:com.test.tests.TekArchApiE2ETest@a530d0a]" started-at="2022-06-16T16:18:10 EDT" name="deleteUserData_TC_05" finished-at="2022-06-16T16:18:13 EDT" duration-ms="2985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserData_TC_05 -->
       </class> <!-- com.test.tests.TekArchApiE2ETest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
