@@ -70,6 +70,10 @@
 					<includes>
 						<!--<include>compile</include>-->
 					</includes>
+					<suiteXmlFiles>
+					<suiteXmlFile>APItestng.xml
+					</suiteXmlFile>
+					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 
